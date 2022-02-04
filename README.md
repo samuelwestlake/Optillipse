@@ -1,6 +1,12 @@
 # Optillipse
 
-The pramatisation of an ellipse to encapsulate a given shape.
+In radiotherapy, the definition of the target volume is vital to successful execution. 
+
+The elliptical treatment area must encompass the whole tumor while containing as little benign tissue as possible.  
+
+In response to this challenge, Optillipse was created to optimally fit an ellipse to any given shape.
+
+![Alt Text](examples/example-03.gif)
 
 Example usage:
 ```python
@@ -10,8 +16,6 @@ model = Model()
 model.load_image("examples/01.png", pad=100)
 model.fit()
 ```
-
-![Alt Text](examples/example-03.gif)
 
 ## Model
 
