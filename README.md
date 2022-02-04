@@ -11,10 +11,6 @@ model.load_image("examples/01.png", pad=100)
 model.fit()
 ```
 
-![Alt Text](examples/example-01.gif)
-
-![Alt Text](examples/example-02.gif)
-
 ![Alt Text](examples/example-03.gif)
 
 ## Model
